@@ -3,7 +3,7 @@ import random
 import time
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
-st.set_page_config(page_title="Trivia Master IUT", page_icon="💰")
+st.set_page_config(page_title="APLICACION TOCAYO", page_icon=":)")
 
 # --- 1. BASE DE DATOS DE PRUEBA (El "Pool" de 10 preguntas) ---
 # Instrucción para el alumno: "Aquí es donde añades tus preguntas de TDA"
@@ -36,7 +36,7 @@ def reproducir_sonido(url):
     st.markdown(f'<audio src="{url}" autoplay style="display:none"></audio>', unsafe_allow_html=True)
 
 # --- 4. INTERFAZ VISUAL ---
-st.title("💰 ¿Quién quiere ser Ingeniero TDA?")
+st.title("💰 ¿Quién quiere ser MILLONARIO?")
 st.divider()
 
 if not st.session_state.juego_terminado:
